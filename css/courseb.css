@@ -121,3 +121,170 @@ body {
     color: darkred;
 }
 /* End Main Page */
+/* Start Login */
+.login .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(179deg,rgba(43, 0, 255, 0.522),white);
+    padding: 10px 40px;
+}
+.login .header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login .header a h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.login .header nav a {
+    margin-left: 40px;
+}
+@media (max-width: 767px) {
+    .login .header nav a {
+        margin-left: 10px;
+    }
+}
+.login .container .box {
+    background-color: rgba(255, 255, 255, 0.835);
+    text-align: center;
+    width: fit-content;
+    margin: 35px auto 0;
+    padding: 70px 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+}
+.login .container .box form input {
+    display: block;
+}
+.login .container .box form input:not(:last-child) {
+    padding: 15px 50px;
+    font-size: 25px;
+    margin: 0 40px 20px;
+    border-radius: var(--border-radius);
+}
+@media (max-width: 767px) {
+    .login .container .box form input:not(:last-child) {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+}
+.login .container .box form input:not(:last-child):hover {
+    border: 2px solid blue;
+}
+.login .container .box form a {
+    display: block;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.login .container .box form input[type="submit"] {
+    margin: 10px auto 30px;
+    padding: 10px 40px;
+    border-radius: calc(var(--border-radius) / 2);
+    background-color: #0564e0;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.login .container .box form input[type="submit"]:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+.login .container .box hr {
+    margin: 10px auto;
+    max-width: 80%;
+}
+.login .container .box .new-account {
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: var(--border-radius);
+    color: white;
+    font-size: 20px;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.login .container .box .new-account:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
+}
+.login .container .box .icons {
+    font-size: 30px;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login .container .box .icons a {
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+.login .container .box .icons a:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 70%), inset 0px -8px 16px 5px rgb(0 0 0 / 56%);
+    border-radius: 10px;
+}
+.login .container .box .icons .facebook {
+    color: #065ac8;
+}
+.login .container .box .icons .github {
+    color: #000;
+}
+.login .container .box .icons .twitter {
+    color: rgb(49, 101, 197);;
+}
+.login .container .box .icons .gmail {
+    color: darkred;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #000016;
+}
+.footer .container .foot {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+}
+@media (max-width:767px) {
+    .footer .container .foot {
+        display: block;
+    }
+}
+.footer .container .foot h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    cursor: default;
+}
+.footer .container .foot .camp .icons {
+    font-size: 30px;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .container .foot .camp .icons .facebook,
+.footer .container .foot .camp .icons .github,
+.footer .container .foot .camp .icons .twitter,
+.footer .container .foot .camp .icons .gmail {
+    color: white;
+}
+.footer .container .foot .camp hr {
+    margin: 10px auto;
+    max-width: 80%;
+}
+/* End Login */
