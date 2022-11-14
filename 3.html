@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COURSEB | Forgot Your Password</title>
+    <title>COURSEB | Create New Account</title>
     <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Font Awesome Libirary -->
@@ -18,9 +18,9 @@
     rel="stylesheet">
 </head>
 <body>
-    <!-- Start Forgot Your Password -->
-    <div class="forot-your-password">
-        <!-- Start Header -->
+    <!-- Start Create New Account -->
+    <div class="create-new-account">
+        <!-- Start header -->
         <header class="header">
             <a href="index.html">
                 <h2>courseb</h2>
@@ -30,28 +30,38 @@
                 <a href="index.html">Logout</a>
             </nav>
         </header>
-        <!-- End Header -->
-        <!-- Start Box -->
+        <!-- End header -->
+        <!-- Start box -->
         <div class="container">
             <div class="box">
                 <form action="1.html" method="post">
+                    <input type="text" name="first name" placeholder="First Name" required>
+                    <input type="text" name="last name" placeholder="Last Name" required>
+                    <input type="email" name="email" placeholder="E-Mail" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="password" name="password confirm" 
+                    placeholder="Password Confirm" required>
+                    <div class="date-of-birth">
+                        <label for="date">Date Of Birth</label>
+                        <input type="date" id="date" name="date of birth" required>
+                    </div>
                     <input type="tel" minlength="11" maxlength="11" 
                     name="phone" placeholder="Phone Number" required>
                     <input type="text" minlength="6" maxlength="6" 
                     name="code" placeholder="Code" required>
                     <hr>
-                    <input type="submit" name="submit" value="submit">
+                    <input class="confirm" type="submit" value="Confirm">
                 </form>
             </div>
         </div>
-        <!-- End Box -->
+        <!-- End box -->
         <!-- Start Footer -->
         <footer class="footer">
             <div class="container">
                 <div class="foot">
                     <h2>Courseb</h2>
                     <div class="camp">
-                        <div class="icons" id="#contact">
+                        <div class="icons" id="contact">
                             <a class="facebook0" href="https://www.facebook.com/">
                                 <i class="fa-brands facebook fa-square-facebook"></i>
                             </a>
@@ -73,6 +83,6 @@
         </footer>
         <!-- End Footer -->
     </div>
-    <!-- End Forgot Your Password -->
+    <!-- End Create A New Account -->
 </body>
 </html>
