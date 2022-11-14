@@ -313,6 +313,10 @@ body {
 .forot-your-password .container .box form input[type="submit"]:hover{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473),0 17px 50px 0 rgba(0, 0, 0, 0.473);
 }
+.forot-your-password .footer {
+    position: fixed;
+    bottom: 0;
+}
 /* Start Submit Button */
 /* End Forgot Your Password-------------------------------------------------- */
 
