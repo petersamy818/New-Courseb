@@ -346,3 +346,46 @@ body {
 }
 /* End Date Of Birth */
 /* End Create New Acccont-------------------------------------------------- */
+/* Start Main Page-------------------------------------------------- */
+/* Start Route Map */
+.container .box .route-map {
+    font-family: 'Times New Roman', Times, serif;
+}
+.container .box .route-map h3 {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+    margin-bottom: 20px;
+    color: rgb(10, 10, 168);
+}
+.container .box .route-map h3:not(:first-child) {
+    margin-top: 20px;
+}
+.container .box .route-map ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.container .box .route-map ul li {
+    padding: 10px 200px;
+}
+@media (max-width: 767px) {
+    .container .box .route-map ul li {
+        padding: 10px 100px;
+    }
+}
+.container .box .route-map ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+.container .box .route-map ul a {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.container .box .route-map ul li:hover {
+    color: #2633f4;
+    background-color: rgba(0, 0, 255, 0.336);
+    border-radius: calc(var(--border-radius) / 2);
+}
+/* ُEnd Route Map */
+/* End Main Page-------------------------------------------------- */
